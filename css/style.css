@@ -1,0 +1,165 @@
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  body {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: ;
+    
+  }
+}
+
+
+header
+{
+  margin: 0px auto;
+  padding: 0px 0px 0px px;
+}
+
+.row-content
+{
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+
+ background-color: #F0F000;
+  margin: 150px auto;
+  padding: 50px 0px 20px 20px;
+  position:relative;
+}
+
+
+
+
+body
+{
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+.navbar-dark
+{
+  background-color:#696969;
+}
+
+.btn
+{
+background-color:#F0F000;
+position:relative;
+
+}
+
+.btn-nav1 {
+  border: 2px solid yellow;
+  border-radius: 0.15em;}
+
+.solid
+{
+padding:20px 20px -10px 20px;
+margin:50px 0px 20px 0px;
+align:center;
+}
+
+.column{
+margin:0px 0px 0px 10px;
+}
+
+.image{
+padding:0px 20px 5px 50px;
+text-align:right;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #F0F000;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1020px) {
+  .text {font-size: 11px}
+}
