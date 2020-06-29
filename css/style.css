@@ -310,3 +310,43 @@ text-align:right;
 }
 
 
+/* footer section */
+footer {
+    border-top: solid 1px #80868b33;
+    padding-top: 40px;
+    color: black;
+    background-color: yellow;
+}
+
+
+footer h1 {
+    color: black;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+footer p.short-description {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+footer h2 {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #80868b33;
+}
+
+footer .contact-info {
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+footer .contact-info p{
+    margin: 4px;
+}
+footer .contact-info i {
+    color: #fff;
+    padding-right: 13px;
+}
+
+
+
