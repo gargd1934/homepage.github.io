@@ -22,91 +22,103 @@ and open the template in the editor.
 </head>
 
 <body>
- <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-     <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+
+<nav class="navbar navbar-dark navbar-expand-sm">
+	<div class="container">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-	<a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="35" width="250"></img></a>
-       <a class="navbar-brand mr-auto" href="index.html"></a>
-         <div classs="collapse navbar-collapse" id="Navbar">        
-           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active"><a class="nav-link" href="#"><u style="text-decoration-color:#F0F000;"> Home</a></u></li>
-            <li class="nav-item"><a class="nav-link" href="#">PARTNER WITH US</a></li>
+	<a class="navbar-brand" href="#"><img src="images/logo.png" height="30px" width="200px"></a>
+         <div classs="collapse navbar-collapse" id="Navbar">
+	<ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="#"> HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"> PARTNER WITH US</a></li>
             <li class="nav-item"><a class="nav-link" href="#"> ABOUT US</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"> CONTACT US</a></li>
-        </ul>
+            <li class="nav-item"><a class="nav-link" href="#"> CONTACT US</a></li> 
+	</ul>
      </div></div>
    </nav>
 
-<header>
-            
-                
-<!-- Slideshow container -->
-<div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides">
-    
-    <img src="images/DD.jpg"" style="width:100%;" style="height:60%;">
-    <div class="text">
+<!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
+        <ol class="carousel-indicators" id="hero-carousel-indicators">
+        <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#heroCarousel" data-slide-to="1" class="active"></li>
+            <li data-target="#heroCarousel" data-slide-to="2" class="active"></li>
+            <li data-target="#heroCarousel" data-slide-to="3" class="active"></li>
 
-	   <h1 style="margin:-280px 0px 0px -600px; color:#FFFFFF; font-size:70px; font-family:Times New Roman;">Find your next destination</h1><h1 style="margin:-5px 0px 0px -1210px; color:#FFFFFF; font-size:70px; font-family:Times New Roman;"> with</h1> <h1 style="margin:-85px 0px 0px -830px; color:#FFFFFF; font-size:70px; font-family:Times New Roman; color:#F0F000;"> Prostay.</h1></div>         
-        	<p style="margin:-200px 0px 0px 80px; font-size:25px; color:white;">Prostay lets you find top rated PGs in your locality based<br>
-on specific rating checkpoints provided by our users.</p>
-<div class="row">
-<button type="button" class="btn align:center" style="margin:0px 0px 0px 100px;">DOWNLOAD THE APP</button>
-<a class="btn-nav1" href="#" style="color:#F0F000; margin:0px 0px 0px 20px;">GET IN TOUCH</a>
-    
-	 </div></div>
+    </ol>
 
+        <div class="carousel-inner" role="listbox">
 
+          <!-- Slide 1 -->
+          <div class="carousel-item" style="background-image: url('images/DD.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container col-12">
+                <h2 class="animated fadeInDown" style="font-family:Times New Roman; font-size:70px;"> Find your next destination<br> with <span style="color:#F0F000;">Prostay<span>.</h2>
+                <p class="animated fadeInUp" style="font-size:25px;">Prostay lets you find top rated PGs in your locality based<br> on specific rating checkpoints provided by our users. </p>
+                <a href="#" class="btn-get-started animated fadeInUp scrollto" style="background-color:#F0F000; color:#000000;">DOWNLOAD THE APP</a>
+		<a href="#" class="btn-nav1 inline-space animated fadeInUp scrollto" style="color:#F0F000;">GET IN TOUCH</a>   
+           </div>
+            </div>
+          </div>
 
-  </div>
-
-  <div class="mySlides">
-    
-    <img src="images/SSSS.jpg"" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <div class="mySlides">
-    
-    <img src="images/maxresdefault.png"" style="width:100%">
-    <div class="text"></div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-</div></div>
-	      </div>    
-
-           
-        </header><br><br><br>
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('images/qq.jpg');">
+            <div class="carousel-container">
        
+            </div>
+          </div>
 
-<div class="container">
+          <!-- Slide 3 -->
+          <div class="carousel-item active" style="background-image: url('images/rr.jpg');">
+            <div class="carousel-container">
+              
+            </div>
+          </div>
 
-           <h1 style="font-size:70px; font-family:Times New Roman; margin:100px 0px 0px -120px;">Introducing the Prostay App</h1>
-		<p style="font-size:25px; font-family:arial; margin:20px 0px 0px -115px;">Now it s easier to find stays thanks to the all new Prostay<br>
+           <!-- Slide 4 -->
+          <div class="carousel-item" style="background-image: url('images/AA.jpg');">
+            <div class="carousel-container">
+             
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  
+
+
+<div class="container col-10">
+<div class="row row-cols-12">
+
+  <div class="col-8">         <h1 style="font-size:70px; font-family:Times New Roman; margin-top:50px;">Introducing the Prostay App</h1>
+		<p style="font-size:25px; font-family:arial;">Now it s easier to find stays thanks to the all new Prostay<br>
 App. It will recommend stays based on your location,<br>
-hospitality, user ratings etc.</p><br><br>
+hospitality, user ratings etc.</p></div>
 
-<button type="button" class="btn" style="margin:0px 0px 0px -120px;">GET IT NOW!</button>
-        </div><br><br>
-   <img src="images/pro.png" style="margin:-500px 0px 0px 950px;"> 
+<div class="col-4"><img  src="images/pro.png" width="300px"> </div>
+<div class="row"><div class="col-4"><button type="button" class="btn" style="margin-top:-250px;">GET IT NOW!</button></div></div></div></div>
+
+	
+
 <center><h1 style="font-size:70px; font-family:Times New Roman; margin:150px 0px 0px 0px;">Top Rated Stays</h1></center>
 
 <!-- Container for the image gallery --><div class="container solid" style="border-style: solid; border-color:#F0F000; margin:50px 5px 30px 180px;">
@@ -360,6 +372,7 @@ locality you prefer.</p></center><br><br>
 <center><p style="font-size:27px; font-family:arial; color:gray;">The rating is based on:</p></center>
 <center><img src="images/rating.png"></center><br><br><br><br><br><br><br><br>
 
+
 <img src="images/BBB.jpg" height="500px" width="1520px">
 
 <center><h1  style="font-size:60px; font-family:Ubuntu; color:white; margin:-350px 0px 0px 0px;">Solving the BIGGEST issue of India is living.</h1>
@@ -398,7 +411,7 @@ and gossip during those sleepless nights.</p>
 <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-6">
+                    <address>
                         <h5>Prostay is powered by EvergreenCube Solutions Pvt.Ltd</h5>
                         <p>EvergreenCube Solutions Pvt.LTD<br>
 
@@ -408,10 +421,10 @@ and gossip during those sleepless nights.</p>
 
                             Jaipur, Rajasthan<br>
 
-302004</p>
+302004</p></address>
                     </div> 
 
-<div class="col-12 col-sm-4" style="float:right; margin-top: -30px; margin-bottom:-100%;margin-right:70% ;margin-left:70%;">
+<div class="col align-self-end">
                     
                         <a href="#" style="color:black;"> HOME</a>
                         <a href="#" style="color:black;"> ABOUT</a>&nbsp;
@@ -447,29 +460,11 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
- 
-  setTimeout(showSlides, 5000); // Change image every 4 seconds
 
-
-}
 
   
 
-</script>
+
 
 <script>
 function myFunction(x) {
