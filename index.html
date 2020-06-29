@@ -101,27 +101,37 @@ and open the template in the editor.
 
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <main id="main">
+  <!-- End Hero -->
 
   
 
+<section id="block">
+<div class="container">
+<div class="row">
 
-<div class="container col-10">
-<div class="row row-cols-12">
 
-  <div class="col-8">         <h1 style="font-size:70px; font-family:Times New Roman; margin-top:50px;">Introducing the Prostay App</h1>
+  <div class="col-8"><h1 style="font-size:70px; font-family:Times New Roman; margin-top:50px;" >Introducing the Prostay App</h1>
 		<p style="font-size:25px; font-family:arial;">Now it s easier to find stays thanks to the all new Prostay<br>
 App. It will recommend stays based on your location,<br>
 hospitality, user ratings etc.</p></div>
 
 <div class="col-4"><img  src="images/pro.png" width="300px"> </div>
-<div class="row"><div class="col-4"><button type="button" class="btn" style="margin-top:-250px;">GET IT NOW!</button></div></div></div></div>
+<div class="row"><div class="col-4"><button type="button" class="btn" style="margin-top:-50px;">GET IT NOW!</button></div></div>
 
+</div>
+</div>
+</section><br><br>
+
+<!-- PG Details -->
 	
+<div class="jumbotron container-fluid">
+  <div class="row">
+<h1 style="font-size:70px;">Top Rated Stays</h1>
 
-<center><h1 style="font-size:70px; font-family:Times New Roman; margin:150px 0px 0px 0px;">Top Rated Stays</h1></center>
-
-<!-- Container for the image gallery --><div class="container solid" style="border-style: solid; border-color:#F0F000; margin:50px 5px 30px 180px;">
+<!-- Container for the image gallery -->
+<div class="container" style="border-style: solid; border-color:#F0F000; margin:50px 5px 30px 180px;">
 <div class="image">
 <img src="images/Screen 1 (2).png" style="margin:20px 0px 0px 0px;">
 
@@ -360,20 +370,27 @@ hospitality, user ratings etc.</p></div>
     <img src="images/10.jpg" width="100px" height="100px" style="margin:-240px 0px 0px 0px;">  
 </div>
     </div>
-  </div><br><br><br><br>
+  </div>
+</div>
+</div>
 
-<div class="container">
+<!-- how the Prostay Work -->
+
+<div class="jumbotron container-fluid">
           <center><h1 style="font-size:60px; font-family:arial;">How does Prostay work?</h1></center>
-	</div><br>
+	<br>
 		<center><p style="font-size:27px; font-family:arial; color:#000000;">Prostay rates homestays based on user ratings and<br>
 makes it easy for you to find the <br>best stay for you in the
 locality you prefer.</p></center><br><br>
 
 <center><p style="font-size:27px; font-family:arial; color:gray;">The rating is based on:</p></center>
-<center><img src="images/rating.png"></center><br><br><br><br><br><br><br><br>
+<center><img src="images/rating.png"></center>
+
+</div>
 
 
-<img src="images/BBB.jpg" height="500px" width="1520px">
+<!-- Solving Issue -->
+<img src="images/BBB.jpg" height="400px" width="1520px">
 
 <center><h1  style="font-size:60px; font-family:Ubuntu; color:white; margin:-350px 0px 0px 0px;">Solving the BIGGEST issue of India is living.</h1>
 <br>
@@ -385,15 +402,15 @@ different programmes in particular time frames.</p></center>
 <div class="container">
 <div class="row">
 <div class="col-12 col-4">
-<h1 style="margin:300px 0px 0px -120px; font-size:60px; font-family:Ubuntu; color:#000000;">What We Offer</h1>
-<br><p style="font-size:27px; font-family:arial; color:#000000; margin:10px 0px 0px -120px;">If you are looking for a room on rent, look no<br>
+<h1 style="margin:300px 0px 0px -120px; font-size:60px; font-family:Ubuntu; color:#000000; margin-left:12px ">What We Offer</h1>
+<br><p style="font-size:27px; font-family:arial; color:#000000; margin:10px 0px 0px -120px; margin-left:12.5px ">If you are looking for a room on rent, look no<br>
 further. Prostay provides furnished rooms<br>
 with attached bathroom and free Wi-Fi. Your<br>
 new home will come with a common laundry<br>
 room, shared kitchen and a living area to chill<br>
 and gossip during those sleepless nights.</p>
 
-<img class="img" src="images/paragraph (3).png" style="margin:-370px 0px 0px 650px; color:#F0F000;">
+<img class="img" src="images/34.png" style="margin:-350px 0px 0px 650px; color:#F0F000;">
 </div>
 </div>
 </div>
@@ -411,20 +428,20 @@ and gossip during those sleepless nights.</p>
 <footer class="footer">
             <div class="container">
                 <div class="row">
+                    
                     <address>
                         <h5>Prostay is powered by EvergreenCube Solutions Pvt.Ltd</h5>
                         <p>EvergreenCube Solutions Pvt.LTD<br>
-
                             BTH (Bhamasha Techno Hub)<br>
-
                             Jhalana Doongri,<br>
-
                             Jaipur, Rajasthan<br>
 
 302004</p></address>
-                    </div> 
+                    
 
-<div class="col align-self-end">
+                   
+
+<div style="margin-left: 750px">
                     
                         <a href="#" style="color:black;"> HOME</a>
                         <a href="#" style="color:black;"> ABOUT</a>&nbsp;
@@ -446,19 +463,7 @@ and gossip during those sleepless nights.</p>
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
 
 
@@ -466,19 +471,7 @@ function currentSlide(n) {
 
 
 
-<script>
-function myFunction(x) {
-  if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "";
-  } else {
-   document.body.style.backgroundColor = "white";
-  }
-}
 
-var x = window.matchMedia("(max-width: 1024px)")
-myFunction(x) // Call listener function at run time
-x.addListener(myFunction) // Attach listener function on state changes
-</script>
 
 
 </body>
